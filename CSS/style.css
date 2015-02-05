@@ -70,6 +70,13 @@ input{
   border-right: 2px solid #FFF;
   right: 5px;
 }
+#stickerContainer{
+  height: 2125px;
+  background-image: url(../images/offDelanceyPiece.jpg);
+  border-left: 2px solid #FFF;
+  border-right: 2px solid #FFF;
+  right: 5px;
+}
 
 #mainWindow{
   width: 70%;
@@ -91,6 +98,25 @@ input{
   /*background-color: red;*/
   margin: 0 auto;
   padding-left: 8px;
+}
+.pictureBox{
+  width: 220px;
+  height: 300px;
+  float: left;
+  margin: 15px;
+  border: solid 0px green;
+}
+.galleryImage{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.galleryTitle{
+  text-align: center;
+  font-family: sans-serif;
+  font-variant: small-caps;
+  font-size: 20pt;
+  line-height: 17pt;
+
 }
 #footer{
   bottom: 0;
