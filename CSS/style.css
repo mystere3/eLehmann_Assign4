@@ -63,6 +63,13 @@ input{
   border-right: 2px solid #FFF;
   right: 5px;
 }
+#aboutContainer{
+  height: 2125px;
+  background-image: url(../images/OwnedNight.jpg);
+  border-left: 2px solid #FFF;
+  border-right: 2px solid #FFF;
+  right: 5px;
+}
 
 #mainWindow{
   width: 70%;
@@ -85,7 +92,12 @@ input{
   margin: 0 auto;
   padding-left: 8px;
 }
-
+#footer{
+  bottom: 0;
+  right:0;
+  clear: both;
+  position: fixed;
+}
 
 
 
