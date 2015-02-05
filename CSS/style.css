@@ -1,15 +1,29 @@
 
+html{
+  background-color: #5c829c;
 
+}
 #banner{
-	height: 100px;
+	height: 130px;
+  width: 100%;
   background-image: url(../images/tunnel_Fade75.jpg);
-/*  position: fixed;*/
+  border-top: 2pt solid #000;
+  border-bottom: 1pt solid #FFF;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
 }
 
 #navBox{
   width: 100%;
-  background-color: #5c829c;
-/*  position: fixed;*/
+  background-color: #3d5465;
+  position: fixed;
+  top: 133px;
+  left: 0;
+  right: 0;
+  border-top: 2pt solid #000;
+  border-bottom: 2pt solid #000;
 }
 
 ul.nav{
@@ -43,11 +57,34 @@ input{
 }
 
 #container{
-  height: 1000px;
+  height: 2500px;
   background-image: url(../images/StickerSheet-1.png);
+  border-left: 2px solid #FFF;
+  border-right: 2px solid #FFF;
+  right: 5px;
 }
 
-
+#mainWindow{
+  width: 70%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: #5c829c;
+  border-left: 2px solid #000;
+  border-right: 2px solid #000;
+}
+#spacerBox{
+  width: 100%;
+  height: 168px;
+  /*background-color: red;*/
+}
+.twoColumnBox{
+  width: 47%;
+  height: 700px;
+  float: left;
+  /*background-color: red;*/
+  margin: 0 auto;
+  padding-left: 8px;
+}
 
 
 
